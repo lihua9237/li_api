@@ -1,0 +1,237 @@
+{
+  "wallpaper": "https://img.netbian.com/file/2020/0119/1aa82e824cd10f7edcb5c82b8777e643.jpg",
+  "wallpapers": [
+    "https://img.picgo.net/2024/06/01/tvbox_wallpaper_01.webp",
+    "https://img.picgo.net/2024/06/01/tvbox_wallpaper_02.webp"
+  ],
+  "doh": [
+    {
+      "name": "腾讯",
+      "url": "https://doh.pub/dns-query",
+      "ips": [
+        "119.29.29.29"
+      ]
+    },
+    {
+      "name": "阿里",
+      "url": "https://dns.alidns.com/dns-query",
+      "ips": [
+        "223.5.5.5",
+        "223.6.6.6"
+      ]
+    }
+  ],
+  "ads": [
+    "www.letv.com",
+    "player.yun.kankan.com",
+    "mclouds.mgtv.com",
+    "access.cp31.ott.cibntv.net",
+    "data.video.iqiyi.com",
+    "data.video.qiyi.com",
+    "afd.l.qiyi.vrs.letvcdn.com",
+    "api.mob.app.letv.com",
+    "config.meizi.org"
+  ],
+  "flags": {
+    "youku": [
+      "youku",
+      "优酷"
+    ],
+    "qq": [
+      "qq",
+      "QQ",
+      "腾讯"
+    ],
+    "iqiyi": [
+      "iqiyi",
+      "爱奇艺",
+      "qiyi"
+    ],
+    "letv": [
+      "letv",
+      "乐视"
+    ],
+    "sohu": [
+      "sohu",
+      "搜狐"
+    ],
+    "tudou": [
+      "tudou",
+      "土豆"
+    ],
+    "pptv": [
+      "pptv",
+      "PPTV"
+    ],
+    "mgtv": [
+      "mgtv",
+      "芒果"
+    ]
+  },
+  "sites": [
+    {
+      "key": "003",
+      "name": "量子资源",
+      "type": 1,
+      "api": "https://cj.lzcaiji.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "004",
+      "name": "最大资源",
+      "type": 1,
+      "api": "http://www.ziyuantv.net/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "005",
+      "name": "非凡资源",
+      "type": 1,
+      "api": "https://cj.ffzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析一",
+      "type": 1,
+      "url": "https://jx.jsonplayer.com/player/?url="
+    },
+    {
+      "name": "解析二",
+      "type": 1,
+      "url": "https://jx.aidouer.net/?url="
+    },
+    {
+      "name": "解析三",
+      "type": 1,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    },
+    {
+      "name": "解析四",
+      "type": 1,
+      "url": "https://jx.playerjy.com/?url="
+    },
+    {
+      "name": "聚合解析",
+      "type": 2,
+      "url": "https://jx.xmflv.com/?url="
+    }
+  ],
+  "lives": [
+    {
+      "name": "直播",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/joevess/IPTV/main/iptv.m3u",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ],
+  "homes": [
+    "csp_Bili",
+    "001",
+    "002"
+  ],
+  "hot": [
+    "https://raw.githubusercontent.com/liu673cn/mao/main/hot.json"
+  ],
+  "ijk": [
+    {
+      "group": "硬解码",
+      "options": [
+        {
+          "category": 1,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-precise-seek",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-all-videos",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "spider": "https://raw.githubusercontent.com/liu673cn/mao/main/js/",
+  "ijkOpts": {
+    "group": "软解码",
+    "options": [
+      {
+        "category": 4,
+        "name": "start-on-prepared",
+        "value": "1"
+      },
+      {
+        "category": 4,
+        "name": "framedrop",
+        "value": "1"
+      }
+    ]
+  },
+  "players": [
+    {
+      "name": "内置"
+    },
+    {
+      "name": "PotPlayer",
+      "package": "com.PotPlayer.Player"
+    },
+    {
+      "name": "MX Player",
+      "package": "com.mxtech.videoplayer.ad"
+    },
+    {
+      "name": "VLC",
+      "package": "org.videolan.vlc"
+    }
+  ],
+  "quickSearch": 1,
+  "theme": "",
+  "wallpaper_switch": 0
+}
