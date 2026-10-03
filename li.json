@@ -16,7 +16,7 @@
     }
   ],
   
-  "ads": ["www.letv.com","player.yun.kankan.com","mclouds.mgtv.com","access.cp31.ott.cibntv.net","data.video.iqiyi.com","data.video.qiyi.com","afd.l.qiyi.vrs.letvcdn.com","api.mob.app.letv.com","config.meizi.org"],
+  "ads": [],
   
   "flags": 
   {
@@ -42,7 +42,8 @@
       "filterable": 1
     }
   ],
-  "parses": [
+  "parses": 
+  [
     {"name":"巨量资源","type":1,"url":"https://jimaoys99.com/parse?url="}
   ],
   "lives": [
@@ -147,6 +148,5 @@
     }
   ],
   "quickSearch": 1,
-  "theme": "",
   "wallpaper_switch": 0
 }
