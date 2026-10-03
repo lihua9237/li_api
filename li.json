@@ -1,100 +1,45 @@
 {
   "wallpaper": "https://img.netbian.com/file/2020/0119/1aa82e824cd10f7edcb5c82b8777e643.jpg",
+  
   "wallpapers": [
-    "https://img.picgo.net/2024/06/01/tvbox_wallpaper_01.webp",
-    "https://img.picgo.net/2024/06/01/tvbox_wallpaper_02.webp"
-  ],
+    "https://img.picgo.net/2024/06/01/tvbox_wallpaper_01.webp","https://img.picgo.net/2024/06/01/tvbox_wallpaper_02.webp"],
+
   "doh": [
     {
       "name": "腾讯",
       "url": "https://doh.pub/dns-query",
-      "ips": [
-        "119.29.29.29"
-      ]
+      "ips": ["119.29.29.29"]
     },
-    {
-      "name": "阿里",
+    {"name": "阿里",
       "url": "https://dns.alidns.com/dns-query",
-      "ips": [
-        "223.5.5.5",
-        "223.6.6.6"
-      ]
+      "ips": ["223.5.5.5","223.6.6.6"]
     }
   ],
-  "ads": [
-    "www.letv.com",
-    "player.yun.kankan.com",
-    "mclouds.mgtv.com",
-    "access.cp31.ott.cibntv.net",
-    "data.video.iqiyi.com",
-    "data.video.qiyi.com",
-    "afd.l.qiyi.vrs.letvcdn.com",
-    "api.mob.app.letv.com",
-    "config.meizi.org"
-  ],
-  "flags": {
-    "youku": [
-      "youku",
-      "优酷"
-    ],
-    "qq": [
-      "qq",
-      "QQ",
-      "腾讯"
-    ],
-    "iqiyi": [
-      "iqiyi",
-      "爱奇艺",
-      "qiyi"
-    ],
-    "letv": [
-      "letv",
-      "乐视"
-    ],
-    "sohu": [
-      "sohu",
-      "搜狐"
-    ],
-    "tudou": [
-      "tudou",
-      "土豆"
-    ],
-    "pptv": [
-      "pptv",
-      "PPTV"
-    ],
-    "mgtv": [
-      "mgtv",
-      "芒果"
-    ]
+  
+  "ads": ["www.letv.com","player.yun.kankan.com","mclouds.mgtv.com","access.cp31.ott.cibntv.net","data.video.iqiyi.com","data.video.qiyi.com","afd.l.qiyi.vrs.letvcdn.com","api.mob.app.letv.com","config.meizi.org"],
+  
+  "flags": 
+  {
+    "youku": ["youku","优酷"],
+    "qq": ["qq","QQ","腾讯"],
+    "iqiyi": ["iqiyi","爱奇艺","qiyi"],
+    "letv": ["letv","乐视"],
+    "sohu": ["sohu","搜狐"],
+    "tudou": ["tudou","土豆"],
+    "pptv": ["pptv","PPTV"],
+    "mgtv": ["mgtv","芒果"]
   },
-  "sites": [
+
+  "sites": 
+  [
     {
-      "key": "003",
-      "name": "量子资源",
+      "key": "1",
+      "name": "巨量资源",
       "type": 1,
-      "api": "https://cj.lzcaiji.com/api.php/provide/vod/",
+      "api": "https://api.juliang.live/api/provide/vod/",
       "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "004",
-      "name": "最大资源",
-      "type": 1,
-      "api": "http://www.ziyuantv.net/api.php/provide/vod/at/xml/",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "005",
-      "name": "非凡资源",
-      "type": 1,
-      "api": "https://cj.ffzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0
+      "quickSearch": 1,
+      "filterable": 1
     }
   ],
   "parses": [
